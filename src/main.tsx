@@ -1,15 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './index.css'
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Css from './tailwindcss'
+import "./index.css"
+import "./quick.css"
+import Quick from './quick'
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Css />,
+    element: <Quick />,
   },
 ]);
 
